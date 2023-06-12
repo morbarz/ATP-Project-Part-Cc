@@ -3,6 +3,7 @@ module com.example.atp {
     requires javafx.fxml;
 
 
-    opens com.example.atp to javafx.fxml;
-    exports com.example.atp;
+    opens View to javafx.fxml;
+
+    exports View;
 }
